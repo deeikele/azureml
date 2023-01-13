@@ -21,7 +21,7 @@ In this tutorial, we'll explain how you can configure your Azure Machine Learnin
 		
 1. Set up your private package repository. Pick your preferred host:
 
-   * [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/start-using-azure-artifacts?view=azure-devops)
+   * [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/start-using-azure-artifacts?view=azure-devops) - Instructions:
 
        * Follow [Get started with Python packages in Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/quickstarts/python-packages?view=azure-devops) to set up a python package feed.
          ![](images/azure_artifacts_createfeed.png)  
