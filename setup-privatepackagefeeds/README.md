@@ -47,9 +47,7 @@ In this tutorial, we'll explain how you can configure your Azure Machine Learnin
 
 Compute instance provides a managed workstation for data science, and comes with pre-installed with Conda and Python versions that point to public feeds for package management.
 
-Check first if your compute instance can access your private repository:
-
-* Check if from CI can connect: 
+* Optionally, verify that your compute instance can connectto the private package host: 
   ```bash
   telnet <ip address> <port>
   ```
