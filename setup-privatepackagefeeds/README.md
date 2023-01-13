@@ -115,6 +115,8 @@ Run the following commands to configure `pip` to point to your private feed:
    &&  pip config set global.trusted-host 192.168.0.13
    ```
 
+   Your dockerfile would look [like this reference dockerfile](example.dockerfile).
+
 1. Create your Azure ML environment, and under 'Jobs' in the Azure ML Studio check whether you image got succesfully build by checking the logs. See 'Outputs + logs'.
    ![](images/check_image_build_logs.png)
 
