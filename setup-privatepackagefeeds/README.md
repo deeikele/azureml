@@ -26,6 +26,7 @@ In this tutorial, we'll explain how you can configure your Azure Machine Learnin
        * Follow [Get started with Python packages in Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/quickstarts/python-packages?view=azure-devops) to set up a python package feed.
          ![](images/azure_artifacts_createfeed.png)  
        * Optionally, include packages from upstream sources such as PyPi.
+       * Set up your virtual network to allow [Azure Artifacts domain URLs](https://learn.microsoft.com/en-us/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops&tabs=IP-V4#azure-artifacts).
 
    * [Sonatype Nexus OSS](https://azuremarketplace.microsoft.com/en-in/marketplace/apps/askforcloudllc1651766049149.nexus_repository_oss_on_ubuntu_20_04_lts?tab=Overview&exp=ubp8) - Instructions:
         
