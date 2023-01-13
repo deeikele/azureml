@@ -47,7 +47,7 @@ In this tutorial, we'll explain how you can configure your Azure Machine Learnin
 
 Compute instance provides a managed workstation for data science, and comes with pre-installed with Conda and Python versions that point to public feeds for package management.
 
-* Optionally, verify that your compute instance can connectto the private package host: 
+* Optionally, verify that your compute instance can connect to the private package host: 
   ```bash
   telnet <ip address> <port>
   ```
@@ -61,7 +61,7 @@ Run the following commands to configure `conda` to point to your private feeds:
   ```
 * Optionally, remove public channels:
   ```bash
-  conda config --remove channels defaults \
+  conda config --remove channels defaults
   ```
 
 * Azure Machine Learning compute instance comes packaged with pre-installed Conda environments. The default user has no privileges to modify these environments. You can create new conda environments, and modify packages using `sudo` permissions e.g.
@@ -118,7 +118,7 @@ Run the following commands to configure `pip` to point to your private feed:
 1. Create your Azure ML environment, and under 'Jobs' in the Azure ML Studio check whether you image got succesfully build by checking the logs. See 'Outputs + logs'.
    ![](images/check_image_build_logs.png)
 
-1. Optionally, publish your Azure ML environment to an Azure Machine Learning registry to reuse the created environment across workspaces.
+1. Optionally, publish your Azure ML environment to an [Azure Machine Learning registry](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-share-models-pipelines-across-workspaces-with-registries?tabs=cli) to reuse the created environment across workspaces.
 
 ## References
 
