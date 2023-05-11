@@ -41,6 +41,15 @@ In this tutorial, we'll explain how you can configure your Azure Machine Learnin
           ![](images/conda_proxy_created.png)  
         * Similarly, create a PyPi proxy following [Set up Sonatype Nexus Python repository](https://help.sonatype.com/repomanager3/nexus-repository-administration/formats/pypi-repositories) 
 
+    * [JFrog Artifactory](https://jfrog.com/artifactory/install/) - Instructions:
+        
+        * Connect to your earlier created virtual machine, or create a VM in the same virtual network as your machine learning workspace.
+        * Follow the [JFrog installation instructions](https://jfrog.com/artifactory/install/) to install JFrog on this VM.
+        * Optionally skip base url and default proxy.
+        * Create a PyPi repository and create a Conda repository
+        * Generate access tokens for your workspace
+        * Navigate to Artifactory -> Packages and set up both Conda and Pypi clients
+        * Save the generated Pypi index url and Conda channel.
 
 1. Access your [Azure Machine Learning workspace](http://ml.azure.com/)
 
@@ -126,3 +135,4 @@ Run the following commands to configure `pip` to point to your private feed:
 * [Vulnerability management for Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-vulnerability-management)
 * [Sonatype Nexus Conda repository](https://help.sonatype.com/repomanager3/nexus-repository-administration/formats/conda-repositories)
 * [Sonatype Nexus Python repository](https://help.sonatype.com/repomanager3/nexus-repository-administration/formats/pypi-repositories)
+* [JFrog Artifactory installation](https://jfrog.com/start-free/install/)
