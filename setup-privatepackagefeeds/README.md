@@ -43,13 +43,12 @@ In this tutorial, we'll explain how you can configure your Azure Machine Learnin
 
     * [JFrog Artifactory](https://jfrog.com/artifactory/install/) - Instructions:
         
-        * Connect to your earlier created virtual machine, or create a VM in the same virtual network as your machine learning workspace.
+        * Create an Ubuntu VM in the same virtual network as your machine learning workspace and subnet `snet-training`.
         * Follow the [JFrog installation instructions](https://jfrog.com/artifactory/install/) to install JFrog on this VM.
         * Optionally skip base url and default proxy.
-        * Create a PyPi repository and create a Conda repository
-        * Generate access tokens for your workspace
-        * Navigate to Artifactory -> Packages and set up both Conda and Pypi clients
-        * Save the generated Pypi index url and Conda channel.
+        * Create a PyPi repository and create a Conda repository.
+        * Navigate to Artifactory, and generate access tokens for your workspace.
+        * Save the generated Pypi index-url and Conda channel.
 
 1. Access your [Azure Machine Learning workspace](http://ml.azure.com/)
 
